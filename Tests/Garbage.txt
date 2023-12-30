@@ -1,0 +1,78 @@
+<!-- <img
+            src="./images/background_img_motive_2.jpg"
+            alt="Our Motive2"
+            class="services_img"
+          /> -->
+
+
+
+          
+                        //                 echo '
+                        //                 <div>
+                        //     <div class="plans-more-wrapper">
+                        //         <div class="container my-3">
+                        //             <div class="card text-center">
+                        //                 <div class="card-header">
+                        //                     <h1>REFERALS</h1>
+                        //                 </div>
+                        //                 <div class="card-body">
+                        //                 <div class="alert alert-danger"><span class="glyphicon glyphicon-remove">Your friends are not loyal to you! They have not registered yet :( <br>
+                        //         Anyways donot lose hope and keep referring :)</span></div>
+                        //                 </div>
+                        //                 <div class="card-footer text-muted">
+                        //                     2 days ago
+                        //                 </div>
+                        //             </div>
+
+                        //         </div>
+                        //     </div>
+                        // </div>
+                        //         ';
+
+
+
+                        
+
+
+      <!-- <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  
+  </div> -->
+
+
+
+  // plans
+
+  <div>
+            <div class="plans-more-wrapper">
+                <div class="container my-3 d-flex justify-content-center">
+
+
+                    <div class="card text-center" style="width: 600px;">
+                        <div class="card-header">
+                            <?php
+                            if ($featured == 0) {
+                                echo 'Check Out this plan';
+                            } else {
+                                echo 'Featured';
+                            }
+
+                            ?>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $nameOfPlan ?></h5>
+                            <p class="card-text"><?php echo $Interest ?> %</p>
+                            <p class="card-text"><?php echo $Tenure ?> months</p>
+                            <p class="card-text"><?php echo $description ?></p>
+                            <a href=<?php echo $url . '?plan_code=' . $plan_code ?> class="btn btn-primary">Deposit</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                            2 days ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
